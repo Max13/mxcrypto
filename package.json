@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "mxcrypto",
+  "version": "1.0.0",
+  "description": "Mxcrypto is a bunch of helpers for the Webcrypto APIs",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"no tests available\" && exit 0",
+    "build": "gulp && gulp --production"
+  },
+  "repository": "max13/mxcrypto",
+  "keywords": [
+    "webcrypto",
+    "cryptography",
+    "symmetric encryption",
+    "asymetric encryption",
+    "hashing"
+  ],
+  "author": "Adnan RIHAN <adnan@rihan.fr> (http://stackoverflow.com/cv/adnanr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/max13/mxcrypto/issues"
+  },
+  "homepage": "https://github.com/max13/mxcrypto#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0"
+  }
+}
